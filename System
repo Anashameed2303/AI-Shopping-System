@@ -13,3 +13,4 @@ for category in user_history:
 
 print("Recommendations:", recommendations)
 
+Add a feature which doesn't let the customer go back all the way to home page but makes him go back one page.
