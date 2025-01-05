@@ -1,0 +1,12 @@
+user_history = ["electronics", "gadgets"]
+recommendations = []
+
+for category in user_history:
+    if category == "electronics":
+        recommendations.append("Smartphone")
+    elif category == "gadgets":
+        recommendations.append("Smartwatch")
+    else:
+        recommendations.append("General Accessories")
+
+print("Recommendations:", recommendations)
