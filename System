@@ -6,7 +6,10 @@ for category in user_history:
         recommendations.append("Smartphone")
     elif category == "gadgets":
         recommendations.append("Smartwatch")
+    elif category == "gaming":
+        recommendations.append("Gaming Consoles")
     else:
         recommendations.append("General Accessories")
 
 print("Recommendations:", recommendations)
+
